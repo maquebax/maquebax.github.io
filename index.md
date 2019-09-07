@@ -25,11 +25,8 @@ Syntax highlighted code block
 
 **IM TRYING THIS STUFF OUT**
 
-[Link](url) and ![Image](https://photos.app.goo.gl/jDkJgq9YZUiZwQGW6)
+[Link](url) and ![Image](src)
 ```
-
-![Image](test1.jpg)
-![Image](test2.jpg)
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
