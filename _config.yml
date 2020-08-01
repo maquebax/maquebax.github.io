@@ -6,7 +6,7 @@ description: >- # site description
 lang: en-US # default lang
 timezone: Asia/Kolkata # set your timezone
 image: assets/img/mqb.png # This image used for Open Graph more info https://ogp.me/
-mode: light # default theme "dark" | "light"
+mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
