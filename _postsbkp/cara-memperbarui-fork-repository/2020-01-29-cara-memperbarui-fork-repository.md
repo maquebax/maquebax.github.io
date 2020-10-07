@@ -65,6 +65,9 @@ $ git commit -m "updating origin repo" && git push -u origin master
 
 Selamat mencoba cara ribet ini, semoga bisa dipahami, saya sendiri lebih senang melalui terminal, klo ada yang ribet kenapa cari yang mudah.
 
+
+{% gist 5555251 %}
+
 ##### Resources
 
 - [Syncing a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
