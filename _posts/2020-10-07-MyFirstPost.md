@@ -16,17 +16,17 @@ Here in this page, I'm looking to set commitment on my learnings and also share 
 
 Topic | Start Date | End Date 
 ------|------------|----------
-  Java Class Design | 8th Oct | 8th Oct
-  Advanced Java Class Design | 9th Oct | 9th Oct
-  Generics and Collections | 9th Oct | 9th Oct
-  Java Stream API | 10th Oct | 11th Oct
-  Lambda Built-in Functional Interfaces | 10th Oct | 11th Oct
-  Use Java SE 8 Date/Time API | 12th Oct | 12th Oct
-  Java I/O Fundamentals | 13th Oct | 14th Oct
-  Java File I/O (NIO.2) | 13th Oct | 14th Oct
-  Java Concurrency |14th Oct | 18th Oct
-  Building Database Applications with JDBC| 19th Oct |25th Oct
-  Localization | 25th Oct | 25th Oct
+  Java Class Design | 13th Oct | 13th Oct
+  Advanced Java Class Design | 14th Oct | 14th Oct
+  Generics and Collections | 15th Oct | 15th Oct
+  Java Stream API | 16th Oct | 17th Oct
+  Lambda Built-in Functional Interfaces | 17th Oct | 18th Oct
+  Use Java SE 8 Date/Time API | 19th Oct | 19th Oct
+  Java I/O Fundamentals | 20th Oct | 20th Oct
+  Java File I/O (NIO.2) | 21st Oct | 21st Oct
+  Java Concurrency |22nd Oct | 25th Oct
+  Building Database Applications with JDBC| 26th Oct |1st Nov 
+  Localization | 1st Nov| 1st Nov
 
 
 
