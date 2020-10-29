@@ -46,7 +46,11 @@ for eg; using @Override on a method which does not exist in superclass will give
 #### Override hashCode,equals and toString methods of the Object Class
 Every Object has these 3 methods(toString, equals and hashCode ) by default.
 ##### toString()
-this method allows you summarise what the class is all about.
+    @Override
+    public String toString() {
+        return getClass().getName() + "@" + Integer.toHexString(hashCode());
+    }
+this method allows us to summarise what the object of  this class is all about.
 when we do System.out.println(new ClassA()); the toString method of the class gets called
 ##### equals
     @Override
@@ -65,6 +69,15 @@ The equals method must adhere to following properties.
 5.Also in practice, the hashCode of 2 equals objects should be same.
 
 ##### hashCode
+    @Override
+    public native int hashCode();
+
+hashCode gives an unique integer to identify or classify an object into categories.
+hashCode should have conditions which is a subset of conditions written in equal.
+i.e when two objects are equal , their hashCodes should always be equal.
+but when two hashCodes are equal, the objects need to be equal.
+hashCodes are mainly used in maps to segagrate values in to buckets for faster indexing.
+
 
 #### Create and use  singleton classes and immutable classes
 #### Use static keyword on initializer blocks,methods,variables and classes
