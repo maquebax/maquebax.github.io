@@ -14,18 +14,22 @@ description: 1Z0-809 - Java Class Design
 - setter of the instance variables are protected.  
 
 
-##### while using a instanceof  B
-- object a has to be either sameclass,subclass or type implementing interface B
+##### while using `a instanceof  B`
+- object **a** has to be either of sameclass B, subclass of B or type implementing interface B
 - the compiler allows checking an object of a type against any interface and
   only the classes that are directly related.
       
 ##### Virtual Method Invocation
-when method we call a method of subclass from object of superclass  
+when  we call a method of subclass from object of superclass.  
+    
     void somemethod(SuperclassA objA){ 
         if(objA instanceof SubClassB)
             ((SubClassB) objA).doSomethodInB();
     }
-        
+    Class A objA = new ClassB();
+    objA.printSound(); // prints Sound from Class B
+
+
 ##### In inheritance,
     -  method calls refer to overriden method of the type assigned.
         ClassA  objA = new ClassB();
@@ -50,6 +54,7 @@ Every Object has these 3 methods(toString, equals and hashCode ) by default.
     public String toString() {
         return getClass().getName() + "@" + Integer.toHexString(hashCode());
     }  
+
 this method allows us to summarise what the object of  this class is all about.  
 when we do System.out.println(new ClassA()); the toString method of the class gets called.  
 ##### equals
@@ -57,16 +62,17 @@ when we do System.out.println(new ClassA()); the toString method of the class ge
     public boolean equals(Object obj){
         return {this == obj};
     }  
+
 We override the equals method mainly to check equality of two objects.  
 When we use == on objects for eg: objA == objB  
 the compiler checks only if the object referrences are same. Hence we use equals method  
-to test equality of objects. When we override equals method, we check for values of desired instance variables  
-    The equals method must adhere to following properties.  
-        1.reflexive  x.equal(x) always true  
-        2.symmetric  if x.equals(y) true then y.equals(x) true - always  
-        3.transitive if x.equals(y) and y.equals(z) then x.equals(z) - either all true or all false.  
-        4.consistent x.equals(y) always true and x.equals(null) always false  
-        5.Also in practice, the hashCode of 2 equals objects should be same.  
+to test equality of objects. When we override equals method, we check for values of desired instance variables.  
+&emsp;The equals method must adhere to following properties.  
+&emsp;&emsp;1.reflexive  x.equal(x) always true  
+&emsp;&emsp;2.symmetric  if x.equals(y) true then y.equals(x) true - always  
+&emsp;&emsp;3.transitive if x.equals(y) and y.equals(z) then x.equals(z) - either all true or all false.  
+&emsp;&emsp;4.consistent x.equals(y) always true and x.equals(null) always false  
+&emsp;&emsp;5.Also in practice, the hashCode of 2 equals objects should be same.  
 
 ##### hashCode
     @Override
@@ -75,8 +81,8 @@ to test equality of objects. When we override equals method, we check for values
 hashCode gives an unique integer to identify or classify an object into categories.  
 hashCode should have conditions which is a subset of conditions written in equal.  
 i.e when two objects are equal , their hashCodes should always be equal.  
-but when two hashCodes are equal, the objects need to be equal.  
-hashCodes are mainly used in maps to segagrate values in to buckets for faster indexing.  
+but when hashCodes of two objects are equal, the objects need not be equal.  
+hashCodes are mainly used in collections like maps to segagrate values in to buckets for faster indexing.  
 
 
 #### Create and use  singleton classes and immutable classes
