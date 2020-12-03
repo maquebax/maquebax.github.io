@@ -13,4 +13,4 @@ What we learn stays only when we share,so here is my attempt to share and discus
 
 
 - github.com/{{ site.author.github }}
-- twitter.com/viggyjiggy
+
