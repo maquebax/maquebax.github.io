@@ -1,7 +1,7 @@
 ---
 title: Introduction
 date: 2025-01-29 5:23:30 +5:30
-tags: [first,java 8 ]
+tags: [first,java 11 ]
 description: This is to set commitment for upcoming Java 11 certification preparation.
 ---
 ### Introduction

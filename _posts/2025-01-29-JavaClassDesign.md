@@ -1,7 +1,7 @@
 ---
 title: Java Class Design
 date: 2025-01-29 5:23:30 +5:30
-tags: [class design,java 8]
+tags: [class design,java 11]
 description: 1Z0-809 - Java Class Design
 ---
 
