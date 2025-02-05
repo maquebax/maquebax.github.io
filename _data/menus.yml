@@ -10,9 +10,9 @@
   url: /about/
   external: false
 
-- title: where
-  url: /where/
-  external: false
+# - title: where
+#   url: /where/
+#   external: false
 
 
 # Example:
